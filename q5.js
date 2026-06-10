@@ -1,0 +1,6 @@
+//db.employees.findOne({email:"john@gmail.com"})
+//db.employees.find({department:"IT"})
+//db.employees.find({department:"IT"},{_id:0,name:1,email:1})
+//db.employees.find({salary:{$gt:3000}})
+//db.employees.updateOne({email:"john@gmail.com"},{$set:{salary:7500}})
+db.employees.deleteOne({email:"john@gmail.com"})
